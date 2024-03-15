@@ -56,7 +56,7 @@ export default function Home() {
        
     
       <form className={styles.form} onSubmit={handleSubmit}>
-        <input type="text" name="prompt" placeholder="Enter you phrase!" />
+        <input type="text" name="prompt" placeholder="Enter your phrase!" />
         <button type="submit">Go!</button>
       </form>
 
